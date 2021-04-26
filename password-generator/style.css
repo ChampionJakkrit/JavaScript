@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #A770EF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FDB99B, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.pw-container {
+    background: linear-gradient(to right, #fccec6, #ffc1b5, #f1b5a9);
+    width: 650px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+.pw-header {
+    padding: 1rem;
+}
+
+.pw {
+    background: #A770EF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #e1bbf5, #CF8BF3, #A770EF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #dbb0f1, #CF8BF3, #A770EF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 60px;
+    width: 100%;
+    padding: 1rem;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.pw button {
+    background-color: #ffa18c;
+    position: absolute;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    padding: 0.65rem, 1.25rem;
+    font-family: inherit;
+    bottom: 0;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+    opacity: 0;
+}
+
+.pw:hover button {
+    transform: translate(0, -80);
+    opacity: 1;
+}
+
+input {
+    border: none;
+}
+
+.pw-body {
+    padding: 0 1rem 1rem;
+}
+
+.form-control {
+    color: #eee;
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+    padding: 0.2rem 0;
+}
+
+.generate {
+    background-color: #f3d267;
+    color: #A770EF;
+    display: block;
+    border: none;
+    font-weight: bold;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.pg-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
